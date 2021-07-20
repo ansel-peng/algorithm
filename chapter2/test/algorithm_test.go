@@ -15,4 +15,9 @@ func TestInsertionSort(t *testing.T) {
 	array = []int32{323, 443, 433, 54, 65, 678}
 	section1.InsertionSortDesc(array)
 	fmt.Println(array)
+	fmt.Println("-----------二进制数加法运算---------------")
+	array1 := []int{1, 0, 1, 1, 1}
+	array2 := []int{1, 0, 1, 0, 1, 1}
+	result := section1.BinaryCompute(array1, array2)
+	fmt.Println(result)
 }
