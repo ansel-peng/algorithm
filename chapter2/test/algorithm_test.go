@@ -20,4 +20,9 @@ func TestInsertionSort(t *testing.T) {
 	array2 := []int{1, 0, 1, 0, 1, 1}
 	result := section1.BinaryCompute(array1, array2)
 	fmt.Println(result)
+	fmt.Println("-----------选择排序---------------")
+	array = []int32{3, 45, 5, 7, 10}
+	section1.SelectionSort(array)
+	fmt.Println(array)
+
 }
