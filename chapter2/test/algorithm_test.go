@@ -12,7 +12,7 @@ func TestInsertionSort(t *testing.T) {
 	section1.InsertionSort(array)
 	fmt.Println(array)
 	fmt.Println("-----------倒序插入排序---------------")
-	array = []int32{323, 443, 433, 54, 65, 678}
+	array = []int32{3, 45, 5, 7, 10}
 	section1.InsertionSortDesc(array)
 	fmt.Println(array)
 	fmt.Println("-----------二进制数加法运算---------------")
@@ -24,5 +24,8 @@ func TestInsertionSort(t *testing.T) {
 	array = []int32{3, 45, 5, 7, 10}
 	section1.SelectionSort(array)
 	fmt.Println(array)
-
+	fmt.Println("-----------归并排序---------------")
+	array = []int32{3, 45, 5, 7, 10}
+	array = section1.MergeSort(array)
+	fmt.Println(array)
 }
