@@ -32,4 +32,8 @@ func TestInsertionSort(t *testing.T) {
 	array = []int32{3, 45, 5, 7, 10}
 	section1.BubbleSort(array)
 	fmt.Println(array)
+	fmt.Println("-----------二分查找---------------")
+	sortArray := []int{3, 5, 7, 10, 45}
+	index := section1.BinarySearch(sortArray, 7)
+	fmt.Println(index)
 }
