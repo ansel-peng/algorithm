@@ -28,4 +28,8 @@ func TestInsertionSort(t *testing.T) {
 	array = []int32{3, 45, 5, 7, 10}
 	array = section1.MergeSort(array)
 	fmt.Println(array)
+	fmt.Println("-----------冒泡排序---------------")
+	array = []int32{3, 45, 5, 7, 10}
+	section1.BubbleSort(array)
+	fmt.Println(array)
 }
