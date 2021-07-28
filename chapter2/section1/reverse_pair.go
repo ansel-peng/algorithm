@@ -5,8 +5,7 @@ package section1
 	逆序对
  	nums 数组
 */
-
-func ReversePairs(nums []int) int {
+func ReversePair(nums []int) int {
 	return mergeSortForReversePairs(nums, 0, len(nums)-1)
 }
 
