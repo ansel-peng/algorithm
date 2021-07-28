@@ -36,4 +36,9 @@ func TestInsertionSort(t *testing.T) {
 	sortArray := []int{3, 5, 7, 10, 45}
 	index := section1.BinarySearch(sortArray, 7)
 	fmt.Println(index)
+	fmt.Println("-----------逆序对---------------")
+	testArray := []int{45, 5, 7, 10, 3}
+	count := section1.ReversePairs(testArray)
+	fmt.Println(count)
+
 }
